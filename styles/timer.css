@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+.timerBlock{
+    text-align: center;
+    align-items: center;
+}
+
+.timerText{
+    margin-top: 30vh;
+    font-size: 80px;
+    text-align: center;
+}
+
+.timerButton{
+    text-align: center;
+    font-size: 30px;
+    background-color: #0971c6;
+    border-radius: 20px;
+    border: 3px solid black;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.timerButton:hover{
+    background-color: #08518d;
+    transform: scale(1.05);
+}
+
+.timerButton:active{
+    background-color: #0c416c;
+    transform: scale(0.95);
+}

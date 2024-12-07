@@ -9,6 +9,6 @@ function register(){
         console.log(confPassInput.value);
     }
     else{
-        alert("Пароли не совпадают!");
+        alert("Пароли не совпадают!");а
     }
 }
