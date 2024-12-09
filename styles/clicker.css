@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-color: rgb(182, 45, 45);
+}
+
+.clicker-block{
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 25vh;
+    margin-left: 35%;
+    margin-top: 35vh;
+    background-color: rgb(153, 23, 23);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    border: 2px black solid;
+}
+
+.pointer-text{
+    text-align: center;
+    font-size: 60px;
+}
+.click-button{
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(206, 38, 38);
+    border: 3px black solid;
+    border-radius: 12px;
+    transition: background-color 0.2s ease-in-out, transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+.click-button:hover{
+    cursor: pointer;
+    background-color: rgb(167, 31, 31);
+    transform: scale(1.035);
+}
+.click-button:active{
+    background-color: rgb(126, 24, 24);
+    transform: scale(0.97);
+}
