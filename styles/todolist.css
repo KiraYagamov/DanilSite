@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.header{
+    background-color:darkviolet;
+    text-align: center;
+    padding: 10px;
+}
+.header_title{
+    color: white;
+}
+
+.main_block{
+    margin-top: 10px;
+}
+.doings{
+    width: 50%;
+    height: 60%;
+}
+.data_input{
+    width: 50%;
+    height: 60%;
+}
+
+
+.doing{
+    width: 95%;
+    color: white;
+    background-color:darkviolet;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flexbox;
+}
+.doing-delete-btn{
+    float: right;
+    background-color: indigo;
+    color:white;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+.doing-delete-btn:hover{
+    background-color: rgb(58, 7, 94);
+}
