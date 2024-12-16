@@ -8,23 +8,23 @@
 </head>
 <body>
     <div class="header">
-        <h1 class="header_title">To Do List</h1>
+        <h1 class="header-title">Список дел</h1>
     </div>
 
-    <div class="main_block">
-        <div class="doings">
-            
-            <div class="doing">
-                <button class="doing-delete-btn">Delete</button>
-                <h1 class="doing-title">Title</h1>
-                <p class="doing-description">Description</p>
+    <div class="main-block">
+        <div class="data-input">
+            <div class="input-block">
+                <h1 style="color:white;">Добавление дела</h1>
+                <input id="input-title" class="input-data" type="text" placeholder="Введите название...">
+                <input id="input-description" class="input-data" type="text" placeholder="Введите описание...">
+                <button id="add-doing" class="add-btn">Добавить</button>
             </div>
-
         </div>
 
-        <div class="data_input">
-            
+        <div id="doings" class="doings">
+
         </div>
     </div>
+    <script src="js/todolist.js"></script>
 </body>
 </html>

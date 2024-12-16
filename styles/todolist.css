@@ -5,32 +5,46 @@
     font-family: "Nunito", sans-serif;
 }
 
+body{
+    background-image: url("../media/bg.jpg");
+    background-size: cover;
+}
+
 .header{
-    background-color:darkviolet;
+    background-color:rgb(0, 131, 218);
     text-align: center;
     padding: 10px;
 }
-.header_title{
+.header-title{
     color: white;
 }
 
-.main_block{
+.main-block{
     margin-top: 10px;
 }
 .doings{
     width: 50%;
-    height: 60%;
 }
-.data_input{
+.data-input{
     width: 50%;
-    height: 60%;
+    float: right;
+    align-items: center;
+    text-align: center;
+}
+
+.input-block{
+    background-color: rgb(106, 170, 212);
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+    border-radius: 20px;
 }
 
 
 .doing{
     width: 95%;
     color: white;
-    background-color:darkviolet;
+    background-color:rgb(0, 131, 218);
     margin: auto;
     margin-top: 10px;
     border-radius: 20px;
@@ -39,12 +53,61 @@
 }
 .doing-delete-btn{
     float: right;
-    background-color: indigo;
+    background-color: rgba(0, 0, 0, 0);
     color:white;
     font-size: 20px;
     border-radius: 20px;
     border-style: none;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 .doing-delete-btn:hover{
-    background-color: rgb(58, 7, 94);
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.doing-delete-btn:active{
+    transform: scale(0.90);
+}
+
+.input-data{
+    width: 50%;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    background-color: rgb(230, 230, 230);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.input-data:hover{
+    background-color: rgb(179, 179, 179);
+}
+
+.input-data:focus{
+    background-color: rgb(209, 209, 209);
+    transform: scale(1.05);
+}
+
+.add-btn{
+    width: 50%;
+    margin: 1%;
+    text-align: center;
+    background-color: rgb(67, 136, 182);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border-style: none;
+    padding: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-btn:hover{
+    background-color: rgb(51, 103, 138);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.add-btn:active{
+    background-color: rgb(40, 77, 102);
+    transform: scale(0.95);
 }
