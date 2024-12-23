@@ -24,6 +24,12 @@ body{
 }
 .doings{
     width: 50%;
+    height: 80vh;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 20px;
+    /* overflow-y: auto; */
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .data-input{
     width: 50%;
