@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(#3f0086, #6b4aff);
+    width: 98vw;
+    height: 98vh;
+}
+
+.game-field{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -300px;
+}
+
+.cell{
+    width: 190px;
+    height: 190px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    display: inline-block;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.cell:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.02);
+}

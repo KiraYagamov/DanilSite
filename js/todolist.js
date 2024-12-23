@@ -45,10 +45,11 @@ function renderDoing(doing_obj){
     button.append(img);
 
     button.onclick = () => {
+        //-------
         const index = objects.findIndex(obj => obj.id === doing_obj.id);
         objects.splice(index, 1);
         localStorage.setItem("objects", JSON.stringify(objects));
-
+        //-------
         const doing = document.getElementById("doing-"+doing_obj.id);
         doing.remove();
     };
